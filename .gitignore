@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -21,3 +22,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+=======
+# Object file
+*.o
+
+# Ada Library Information
+*.ali
+>>>>>>> 1e9c34b1f3566a81ff6c1c9a3abf8d167f347795

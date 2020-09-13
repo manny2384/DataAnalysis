@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.selection_menu select:hover{
+  cursor: pointer;
+}
+
+
+/*        Table     */ 
+.table_section{
+  height: 500px;
+  width: 100%;
+  overflow: auto;
+  justify-content: center;
+  text-align: center;
+}
+.my_table{
+  padding: 0 50px 0 50px;
+  width: 100%;
+}
+.table_content{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: auto auto;
+}
+
+.my_table thead tr th{
+
+  border-style: solid;
+  background-color: lightslategray;
+}
+.my_table tbody tr td{
+
+  border-style: solid;
+  border-width: 0 1px 1px 1px;
+  background-color: lightslategray;
+}
+
+/*        selection      */ 
+.selection_menu{
+  background-color: rgb(31, 30, 30);
+  height: 40px;
+  justify-content: center;
+  text-align: center;
+}
+.selection{
+  height: 30px;
+  font-size: 20px;
+  margin: 5px;
+}
+
+/*        Graph         */
+
+.image_section img{
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (max-width: 1100px) {
+  .table_section {
+    background-color: lightblue;
+  }
+  .my_table{
+    padding: 0px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .selection_menu{
+    overflow: auto;
+    white-space: nowrap;
+    height: auto;
+  }
+
+  .image_section{
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .image_section img{
+    width: 700px;
+    height: 350px;
+  }
+}
