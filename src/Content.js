@@ -1,5 +1,5 @@
 import React from 'react';
-let url = 'http://localhost:8080';
+let url = 'https://species-sf5lnbi2xa-uc.a.run.app';
 
 function CreateTable(props){
     let head_elements = props.my_header.map( (header, index)=>{
